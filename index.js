@@ -1,8 +1,8 @@
 
 var randomNumber1= Math.floor(6*(Math.random()))+1;
 var randomNumber2= Math.floor(6*(Math.random()))+1;
-var imageSource1="./images/dice" + randomNumber1 + ".png";
-var imageSource2="./images/dice" + randomNumber2 + ".png";
+var imageSource1="./dice" + randomNumber1 + ".png";
+var imageSource2="./dice" + randomNumber2 + ".png";
 /*
 if(randomNumber1===0){
     document.querySelector(".player1").setAttribute("src", "/images/dice1.png");
